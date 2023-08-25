@@ -30,10 +30,10 @@ $ npm install
 $ docker-compose up -d
 ```
 
-### Run migrations
+### Modify env content
 ```bash
-# run the migrations 
-$ npm run migration:run
+# start by copying the .env.example file. 
+$ cp .env.example .env
 ```
 
 ### Start the application
@@ -41,6 +41,13 @@ $ npm run migration:run
 # watch mode 
 $ npm run start:dev
 ```
+
+### Run migrations
+```bash
+# run the migrations 
+$ npm run migration:run
+```
+
 
 
 
