@@ -10,6 +10,11 @@ Moreover, DTOs (Data Transfer Objects) are employed to validate requests from th
 
 Pagination has been incorporated into the list of movies. It's worth noting that the 'Genre' entity consists of attributes 'name' and 'slug,' with the latter being generated dynamically from the title. Slugs are employed to assign new genres to movies in the 'add' and 'update' movie APIs.
 
+## Bootstrapping
+```bash
+# after insuring nvm is installed on your machine. specify the right Nodejs version
+$ nvm use
+```
 
 ## Installation
 
